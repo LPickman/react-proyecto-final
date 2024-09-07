@@ -3,6 +3,8 @@ import { Brand } from "./Brand";
 import { ItemListContainer } from "./ItemListContainer";
 import { CartWidget } from "./CartWidget";
 
+import ContainerCart from "./ContainerCart";
+
 const NavBar = () => {
   return (
     <header>
@@ -16,10 +18,9 @@ const NavBar = () => {
           itemTres="Accesorios"
         />
       </nav>
+      <CartWidget />
 
-      <div className="containerCart">
-        <CartWidget />
-      </div>
+      <ContainerCart />
     </header>
   );
 };
