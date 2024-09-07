@@ -19,9 +19,6 @@ header {
 
 /*containerList*/
 
-.containerItemList {
-}
-
 .containerItemList ul {
   list-style: none;
   display: flex;
